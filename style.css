@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.container > .header {
+    height: 50px;
+    
+    display: flex;
+    align-items: center;
+}
+
+.container > .header > * {
+    margin: 0 10px;
+}
+
+.container > .header > .blank {
+    flex-grow: 1;
+}
+
+.container > .rest{
+    flex-grow:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column
+}
+.container > .rest > img {
+    width: 40%;
+    max-width: 400px;
+}
+
+.container > .rest > input {
+    font-size: 3em;
+}
+.red-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    
+   
+}
+
+.container > .rest button {
+    background: lightgray;
+    color: black;
+    border: none;
+    margin: 15px;
+    padding: 15px;
+}
+
+.container > .footer {
+    height: 50px;
+    background: skyblue;
+}
+
+
